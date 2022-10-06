@@ -8,7 +8,7 @@
         <title>Biblioteca</title>
     </head>
     <body>
-        <h1>Biblioteca</h1>
+        <h2>Biblioteca</h2>
         <br>
         <form action="libros.php" method="post">
             <input type="submit" name="Entrar" id="Entrar" value="Entrar">
