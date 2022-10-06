@@ -28,21 +28,6 @@
           return $this->fecha;
         }
 
-        public function setISBN(){
-            $this->ibsn = $isbn;
-        }
-  
-          public function setTitulo(){
-            $this->titulo = $titulo;
-        }
-  
-          public function setAutor(){
-            $this->autor = $autor;
-        }
-  
-          public function setFecha(){
-            $this->fecha = $fecha;
-        }
 
     }
 

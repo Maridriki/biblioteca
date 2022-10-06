@@ -1,5 +1,8 @@
 <?php
     session_start();
+    if (!isset($_SESSION['libros'])){ //comprueba si existe en la sesion
+        $_SESSION['libros'] = []; //crea el array en la sesion
+    }
 ?>
 
 <!DOCTYPE html>
